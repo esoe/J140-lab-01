@@ -10,7 +10,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -35,9 +34,9 @@ public class App extends Application {
             @Override
             public void handle(ActionEvent event) {
                 Mainframe mainframe = new Mainframe();
-                // mainframe.setX(stage.getX() + 200);
-				// mainframe.setY(stage.getY() + 100);
-                // mainframe.show();
+                mainframe.setX(stage.getX() + 300);
+				mainframe.setY(stage.getY() - 200);
+                mainframe.show();
 			}
         });
 
