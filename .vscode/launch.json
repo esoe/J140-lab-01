@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Access",
+            "request": "launch",
+            "mainClass": "ru.molokoin/ru.molokoin.Access",
+            "projectName": "j140_lab_01"
+        },
+        {
+            "type": "java",
+            "name": "Launch Base",
+            "request": "launch",
+            "mainClass": "ru.molokoin/ru.molokoin.Base",
+            "projectName": "j140_lab_01"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "ru.molokoin/ru.molokoin.App",
